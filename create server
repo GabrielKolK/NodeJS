@@ -1,0 +1,3 @@
+Para inciarmos um servidor HTTP utilizaremos a função 'createServer' que recebe uma função com 2 parâmetros:
+- request;
+- response;
