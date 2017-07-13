@@ -1,0 +1,13 @@
+GET
+Com ele iremos requisitar informações na nossa ou em outras API's. Conectaremos a API Pokémons.
+
+Usaremos a função http.get seguindo o seguinte modelo:
+
+http.get({
+hostname: 'localhost',
+port: 80,
+path: '/',
+agent: false // criar um novo agente apenas para este pedido
+}, function (res){
+//faça algo com res
+})
